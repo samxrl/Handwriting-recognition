@@ -11,7 +11,7 @@ from flask import Flask, jsonify, render_template, request, render_template
 
 print("加载模型...")
 gcf = joblib.load('/mod/model.sav')
-print("\n===========加载完成===========")
+print("\n===========加载完成=============")
 
 
 app = Flask(__name__, static_folder='./templates/static', template_folder="./templates")
